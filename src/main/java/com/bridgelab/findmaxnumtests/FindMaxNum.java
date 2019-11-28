@@ -1,6 +1,21 @@
 package com.bridgelab.findmaxnumtests;
 
-public class FindMaxNum {
+public class  FindMaxNum<T extends Comparable<T>> {
+
+        T firstVar;
+        T secondVar;
+        T thirdVar;
+
+    public FindMaxNum(T firstVar, T secondVar, T thirdVar) {
+        this.firstVar = firstVar;
+        this.secondVar = secondVar;
+        this.thirdVar = thirdVar;
+    }
+
+    public <T extends Comparable<T>> T maximumValue(){
+       return (T) maximumValue(firstVar,secondVar,thirdVar);
+    }
+
     public static  <T extends Comparable<T>> T maximumValue(T firstVar, T secondVar, T thirdVar) {
         T maxValue = firstVar;
         if (secondVar.compareTo(maxValue) > 0)
