@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adab93e8-20c4-4b91-bc1f-7fc763121e66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelab/findmaxnumtests/FindMaxNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelab/findmaxnumtests/FindMaxNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelab/findmaxnumtests/MaximumNumberTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelab/findmaxnumtests/MaximumNumberTests.java" afterDir="false" />
     </list>

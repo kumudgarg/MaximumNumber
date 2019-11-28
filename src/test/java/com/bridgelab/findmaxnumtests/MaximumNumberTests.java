@@ -26,4 +26,15 @@ public class MaximumNumberTests {
         Float maxNum2 = findMaxNum.maxFloat(12.66f, 11.88f, 56.26f);
         Assert.assertEquals((Float) 56.26f, maxNum2);
     }
+
+    @Test
+    public void givenChars_ShouldGiveMaximumChar() {
+        FindMaxNum findMaxNum = new FindMaxNum();
+        Character maxChar = findMaxNum.maxChars('w', 'p', 's');
+        Assert.assertEquals((Character) 'w', maxChar);
+        Character maxChar2 = findMaxNum.maxChars('p', 'w', 's');
+        Assert.assertEquals((Character) 'w', maxChar2);
+        Character maxChar3 = findMaxNum.maxChars('s', 'p', 'w');
+        Assert.assertEquals((Character) 'w', maxChar3);
+    }
 }

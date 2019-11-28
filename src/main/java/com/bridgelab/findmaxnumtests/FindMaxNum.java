@@ -18,4 +18,13 @@ public class FindMaxNum {
             max = thirdNum;
         return max;
     }
+
+    public Character maxChars(Character firstChar, Character secondChar, Character thirdChar) {
+        Character max = firstChar;
+        if (secondChar.compareTo(max) > 0)
+            max = secondChar;
+        if (thirdChar.compareTo(max) > 0)
+            max = thirdChar;
+        return max;
+    }
 }
