@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelab.findmaxnumtests.MaximumNumberTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-28T11:54:43" hostname="admin165-desktop" time="0.001">
+<testsuite name="com.bridgelab.findmaxnumtests.MaximumNumberTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-28T12:32:04" hostname="admin165-desktop" time="0.001">
   <properties/>
-  <testcase name="givenChars_ShouldGiveMaximumChar" classname="com.bridgelab.findmaxnumtests.MaximumNumberTests" time="0.001"/>
+  <testcase name="givenSpecificDataTypeValue_ShouldReturnMaximumValue" classname="com.bridgelab.findmaxnumtests.MaximumNumberTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
