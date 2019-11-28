@@ -22,7 +22,12 @@ public class  FindMaxNum<T extends Comparable<T>> {
             maxValue = secondVar;
         if (thirdVar.compareTo(maxValue) > 0)
             maxValue = thirdVar;
+        printMax(maxValue);
         return maxValue;
+    }
+
+    private static <T extends Comparable<T>> void printMax(T maxValue) {
+        System.out.println("maximum value is : " + maxValue);
     }
 
 }
